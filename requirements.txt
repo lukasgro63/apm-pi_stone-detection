@@ -1,0 +1,12 @@
+numpy
+opencv-python
+tensorflow
+google-auth
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+aiofiles
+PyYAML
+pytest
+pytest-mock
+pytest-asyncio

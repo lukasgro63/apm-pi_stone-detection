@@ -1,0 +1,25 @@
+camera:
+  resolution:
+    - 640
+    - 480
+  framerate: 30
+
+image_processor:
+  target_size: [160, 160]
+
+model:
+  path: "../model/mobilenet_model.tflite"
+
+decision:
+  threshold: 0.5
+
+timestamp:
+  format: "%Y-%m-%d_%H-%M-%S"
+
+storage:
+  directory: "Detected_Stone_Images"
+  batch_size: 2
+
+google_drive:
+  service_account_file: '../secrets/apm-drive-api.json'
+  folder_id: '13I-ObvpAir0SvP_aEfCd4yDQvRg9IcaQ'
