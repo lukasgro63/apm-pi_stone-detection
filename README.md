@@ -6,11 +6,16 @@ This project leverages a Raspberry Pi Zero 2W to develop a prototype for a Mars 
 
 The software running on the Raspberry Pi Zero 2W utilizes a connected camera to continuously monitor the surroundings. When a rock is detected, an image is captured and automatically uploaded to Google Drive.
 
-## Main Components
+## Architecture
 
-- **Hardware**: Raspberry Pi Zero 2W
-- **Model**: MobileNet, trained using transfer learning
-- **Functionality**: Detection and differentiation of rocks, storing and uploading images to Google Drive
+
+### System Context Diagram
+
+![System Context Diagram](docs/system-context.png)
+
+### Activity Diagram
+
+![Activity Diagram](docs/activity.png)
 
 ## Setup and Installation
 
@@ -18,7 +23,7 @@ To get this project up and running on your Raspberry Pi Zero 2W, follow these st
 
 1. **Clone the Repository:**
     ```sh
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/lukasgro63/apm-pi_stone-detection.git)
+    git clone (https://github.com/lukasgro63/apm-pi_stone-detection.git)
     ```
 2. **Navigate to the Project Directory:**
     ```sh
